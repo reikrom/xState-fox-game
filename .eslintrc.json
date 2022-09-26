@@ -1,0 +1,17 @@
+{
+  "extends": ["../../.eslintrc", "eslint:recommended", "plugin:import/errors"],
+  "rules": {
+    "no-console": 1
+  },
+  "plugins": ["import"],
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "createDefaultProgram": true
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  }
+}
